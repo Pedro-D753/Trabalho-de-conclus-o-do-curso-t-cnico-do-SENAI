@@ -1,0 +1,16 @@
+# Ignorar controle de versão e dependências locais
+.git
+.gitignore
+node_modules/
+venv/
+
+# Ignorar logs e arquivos temporários
+*.log
+*.tmp
+temp/
+
+# Ignorar configurações e segredos locais
+.env
+docker-compose.yml
+Dockerfile
+.dockerignore
